@@ -13,6 +13,9 @@ requires = [
     'pyramid_chameleon',
     'pyramid_debugtoolbar',
     'waitress',
+    'cornice',
+    'requests',
+    'psycopg2'
 ]
 
 setup(name='demo',
